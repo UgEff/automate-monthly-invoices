@@ -1,0 +1,14 @@
+# Fichiers de configuration de l'environnement
+.env
+
+# Fichiers compilés Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de logs
+*.log
+
+# Fichiers de base de données locales
+facture.json
+

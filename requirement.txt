@@ -1,0 +1,10 @@
+smtplib
+dotenv
+os
+email.mime.multipart
+email.mime.base
+email.mime.text
+email
+sys
+json
+datetime
