@@ -12,3 +12,7 @@ __pycache__/
 # Fichiers de base de données locales
 facture.json
 
+# Cote Airflow
+airflow/logs/
+airflow/airflow.db
+

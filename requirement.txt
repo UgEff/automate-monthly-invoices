@@ -8,3 +8,4 @@ email
 sys
 json
 datetime
+apache-airflow
