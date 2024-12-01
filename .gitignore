@@ -8,6 +8,8 @@ __pycache__/
 
 # Fichiers de logs
 *.log
+airflow/logs/
+airflow/airflow.db
 
 # Fichiers de base de données locales
 facture.json
@@ -15,4 +17,21 @@ facture.json
 # Cote Airflow
 airflow/logs/
 airflow/airflow.db
+airflow/airflow.cfg
+airflow/webserver_config.py
 
+# Configuration de l'environnement VS Code
+.vscode/
+
+# Fichiers générés par Docker
+**/docker-compose.override.yml
+**/docker-data/
+**/docker-env/
+
+# Données locales pour le projet
+facture.json
+
+# Fichiers générés par les scripts
+*.bak
+*.swp
+*.tmp
